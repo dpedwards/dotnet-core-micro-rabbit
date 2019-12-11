@@ -5,7 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MediatR" Version="7.0.0" />
+    <Folder Include="CommandHandlers\" />
+    <Folder Include="EventHandlers\" />
+    <Folder Include="Commands\" />
+    <Folder Include="Events\" />
   </ItemGroup>
 
 </Project>
