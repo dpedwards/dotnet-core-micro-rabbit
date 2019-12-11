@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using MicroRabbit.Banking.Domain.Models;
 using MicroRabbit.Banking.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
+using MicroRabbit.Banking.Application.Models;
 
 namespace MicroRabbit.Banking.Api.Controllers
 {
+
     /**
      * Banking api controller
      * 
@@ -29,6 +31,13 @@ namespace MicroRabbit.Banking.Api.Controllers
         public ActionResult<IEnumerable<Account>> Get()
         {
             return Ok(_accountService.GetAccounts());
+        }
+
+        [HttpPost]
+        public IActionResult Post([FromBody] AccountTransfer accountTransfer)
+        {
+            _accountService.Transfer(accountTransfer);
+            return Ok(accountTransfer);
         }
     }
 }
