@@ -54,7 +54,7 @@ To create a database for **MicroRabbit.Transfer.Api** project, select `MicroRabb
 - `Add-Migration "Initial Migration" -Context TransferDbContext`
 - `Update-database`
 
-After successfully created the BankingDb and the TransferDb databases you can add some test data to Accounts and TransferLogs tables. Alternatively run the MicroRabbit.Banking.Api, MicroRabbit.Transfer.Api and MicroRabbit.MVC and usw swagger or MVC form input to create test data. 
+After successfully created the BankingDb and the TransferDb databases you can add some test data to Accounts and TransferLogs tables. Alternatively run the MicroRabbit.Banking.Api, MicroRabbit.Transfer.Api and MicroRabbit.MVC and use swagger or MVC form input to create test data. 
 
 ## RabbitMQ and erlang notes
 
