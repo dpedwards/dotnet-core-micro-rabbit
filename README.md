@@ -44,7 +44,7 @@
 
 ### Installation
 
-Check if .NET Core Framework 2.2+ is installed on your machine. Next configure the database connection string in `appsettings.json` file before creating a needed database for MicroRabbit.Banking.Api and MicroRabbit.Transfer.Api project. 
+Check if .NET Core Framework 2.2+ and SQL Server 2016+ is installed on your machine. Next configure the database connection string in `appsettings.json` file before creating a needed database for MicroRabbit.Banking.Api and MicroRabbit.Transfer.Api project. 
 
 To create a database for **MicroRabbit.Banking.Api** project, select `MicroRabbit.Banking.Data` in Visual Studio as >Start Project< and execute the following commands in Package Manager Console:
 - `Add-Migration "Initial Migration" -Context BankingDbContext`
@@ -108,7 +108,9 @@ When submitting a pull request:
 
 ### Requirements
 
-- [Visual Studio](https://visualstudio.microsoft.com/de/vs/)
+- [Visual Studio](https://visualstudio.microsoft.com/de/vs/) or [Visual Studio Code](https://code.visualstudio.com/)
+- [.NET Core](https://dotnet.microsoft.com/download)
+- [SQL Server](https://www.microsoft.com/de-de/sql-server/sql-server-downloads)
 
 ### Packages:
 
