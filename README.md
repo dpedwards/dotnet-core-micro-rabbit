@@ -58,7 +58,7 @@ After successfully created the BankingDb and the TransferDb databases you can ad
 
 ## RabbitMQ and erlang notes
 
-If all Api and MVC projects running correctly you can check the queued messages between sender and cosnumer applications by the microservices architecture design pattern with RabbitMQ.
+If all Api and MVC projects running correctly you can check the queued messages between sender and consumer applications by the microservices architecture design pattern with RabbitMQ.
 
 First download and install [erlang](https://www.erlang.org/downloads) before download and install [RabbitMQ](https://www.rabbitmq.com/download.html) on the same machine the microservcies are running. After erlang and RabbitMQ installations are done, now open RabbitMQ command prompt with administrator rights and type in the following command:
 `rabbitmq-plugins enable rabbitmq_management`
