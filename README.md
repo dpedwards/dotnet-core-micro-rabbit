@@ -5,7 +5,6 @@
 [![swagger](https://img.shields.io/badge/swagger-lightgreen.svg)](https://rubygems.org/gems/minimal-mistakes-jekyll)
 [![RabbitMQ](https://img.shields.io/badge/RabbitMQ-orange.svg)](https://www.rabbitmq.com/download.html)
 [![erlang](https://img.shields.io/badge/erlang-purple.svg)](https://www.erlang.org/downloads)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/dare2101)
 
 .NET Core Microservice architecture design pattern with RabbitMQ messaging
 
@@ -79,12 +78,6 @@ Other RabbitMQ commands:
 **If you enjoy this project, please consider [supporting me](https://www.paypal.me/dare2101) for developing and maintaining it.**
 
 [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/dare2101)
-
----
-
-## Contributing
-
-Having trouble working with the project? Found a typo in the documentation? Interested in adding a feature or [fixing a bug](https://github.com/dpedwards/dotnet-core-micro-rabbit/issues)? Then by all means [submit an issue](https://github.com/dpedwards/dotnet-core-micro-rabbit/issues/new) or [pull request](https://help.github.com/articles/using-pull-requests/). If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
 
 ### Pull Requests
 
