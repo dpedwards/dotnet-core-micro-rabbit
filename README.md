@@ -75,10 +75,6 @@ Other RabbitMQ commands:
 **RabbitMQ dashboard**
 ![](MicroRabbit/images/Overview_RabbitMQ%20Management.png)
 
-**If you enjoy this project, please consider [supporting me](https://www.paypal.me/dare2101) for developing and maintaining it.**
-
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/dare2101)
-
 ### Pull Requests
 
 When submitting a pull request:
